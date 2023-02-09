@@ -1,0 +1,44 @@
+Breakdown of what is in the files and what each file does
+
+index.php file is where the user will enter their email and message save in db and the code will be executed to send the email to the user
+
+connection.php file is the file where I am establishing the connection to thew sql database
+
+functions.php is the file in which there are certain function to execute so that the code works properly 
+
+login.php holds all the information so that the user can tap inhe database and verify the information to login
+
+signup.php is how the user is able to enter information into the database regarding their account
+
+logout.php will simply log the user out so that a new user can login
+
+mailer.php is in charge of all the mail side of things and will send the email to the user from a email adress call lab4sql@gmail.com 
+
+
+Completion percentage:
+As of right now I believe I have the project about 75-80% complete
+
+What is Working:
+User can sign up
+User can log in
+User can send email with their message
+SQL Database Dynamically updates
+Program will prompt if any info is incorrect
+Password has been hashed and checked
+
+
+What is not Working:
+Page reload links to another page rather than updating
+
+Bugs:
+If there is a username twice in database the system wont login
+For some reason a extra row saves in database
+
+What I used
+I downloaded the phpmailer code and used that to send emails
+used XAMPP to run project 
+used phpmyadmin for database
+
+
+
+
